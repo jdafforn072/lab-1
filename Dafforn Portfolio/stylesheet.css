@@ -1,0 +1,68 @@
+/* {
+	border: 2px solid black;
+}*/
+body {
+	background-color: #EADBBC;
+	margin: 30px;
+}
+@font-face {
+	font-family: 'Master of Break';
+	src: url(fonts/master_of_break.otf);
+}
+h1 {
+	background-color: #F4502F;
+	color: white;
+	font-family: 'Master of Break';
+	font-size: 5em;
+	word-spacing: 0.5em;
+	text-align: center;
+	padding: 5px;
+	margin: auto;
+	box-shadow: 0 0 2px black;
+}
+div.links {
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	margin: 5px;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a {
+	color: #F4502F;
+	padding: 10px;
+	font-family: Helvetica;
+}
+#cover {
+	width: 100%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+#color {
+	float: left;
+	font-size: 3em;
+	font-family: serif;
+	padding: 10px;
+	line-height: 0.25em;
+}
+div.input {
+	display: block;
+	text-align:left;
+}
+input {
+	display: inline;
+	align: center;
+	margin: auto;
+}
+fieldset.favColor input {
+	display: block;
+}
+img {
+	width: 50px;
+	display: inline;
+}
